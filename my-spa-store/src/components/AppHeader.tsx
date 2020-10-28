@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/esm/Nav";
 import Navbar from "react-bootstrap/esm/Navbar";
 
 interface IAppHeaderProps {
-    path:string;
+    path?:string;
 }
 
 export default class AppHeader extends React.Component<IAppHeaderProps> {

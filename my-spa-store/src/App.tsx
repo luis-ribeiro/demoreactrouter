@@ -19,11 +19,9 @@ import AppProductDetail from './components/AppProductDetail';
 export default class App extends React.Component {
 
   render() {
-    // let {id} = useParams<IUseParams>();
-
     return (
       <React.Fragment>
-        <AppHeader path={"match.id"}></AppHeader>
+        <AppHeader></AppHeader>
         <Router>
           <Switch>
             <Route path="/products/:id" component={AppProductDetail}>
