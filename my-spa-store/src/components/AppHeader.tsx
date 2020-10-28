@@ -12,7 +12,7 @@ export default class AppHeader extends React.Component<IAppHeaderProps> {
     render() {
         return (
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     My Store    
                 </Navbar.Brand>
                 <Nav className="mr-auto">
